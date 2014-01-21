@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/scrollView1"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:background="#b01a40" >
+ 
+<RelativeLayout
+    android:id="@+id/ReLayoutFAQ"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top" >
+
+    <FrameLayout
+        android:id="@+id/FRPregunta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/textViewPregunta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="1. ¿Es de uso gratuito esta aplicación?" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta1"
+        android:layout_below="@id/FRPregunta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="Si, siempre y cuando sea posible, ya que no se percibe ninguna remuneración por la creación y mantenimiento de esta aplicación." />         
+    </FrameLayout>  
+    
+        <FrameLayout
+        android:id="@+id/FRPregunta2"
+        android:layout_below="@id/FRRespuesta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/textViewPregunta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="2. ¿Existe alguna versión de pago o para la SFV?" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta2"
+        android:layout_below="@id/FRPregunta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="No, de momento estamos desarrollando esta versión para la SVM, una vez que la terminemos pretendemos exportarla a SFV y Superliga2" />         
+    </FrameLayout> 
+  
+        <FrameLayout
+        android:id="@+id/FRPregunta3"
+        android:layout_below="@id/FRRespuesta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/textViewPregunta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="3. He encontrado un error o creo que se pueden mejorar ciertas cosas, ¿cómo puedo contactar con ustedes?" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta3"
+        android:layout_below="@id/FRPregunta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="Estamos abiertos a todo tipo de ideas y opiniones por lo que puede hacerlo desde el apartado 'Errores/Sugerencias' o bien enviando un email a soporte@cavesquimo.es   Si ha encontrado un error, por favor descríbanos brevemente como se ha producido el error y qué mensaje de error aparece." />         
+    </FrameLayout> 
+    
+        <FrameLayout
+        android:id="@+id/FRPregunta4"
+        android:layout_below="@id/FRRespuesta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/textViewPregunta4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="4. A veces tardan mucho en cargarme las secciones y las imágenes" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta4"
+        android:layout_below="@id/FRPregunta4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="Esto se debe a que usted puede estar experimentando cierta lentitud en su conexión de datos o internet." />         
+    </FrameLayout>
+    
+         <FrameLayout
+        android:id="@+id/FRPregunta5"
+        android:layout_below="@id/FRRespuesta4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/textViewPregunta5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="5. ¿Es esta aplicación la oficial de la RFEVB?" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta5"
+        android:layout_below="@id/FRPregunta5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="No, aunque antes de ser publicada se pidieron los correspondientes permisos para no incumplir ningún tipo de normativa o derechos. Sólo podrá ser la oficial si algún patrocinador de la RFEVB patrocina esta aplicación." />         
+    </FrameLayout>
+    
+    
+         <FrameLayout
+        android:id="@+id/FRPregunta6"
+        android:layout_below="@id/FRRespuesta5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/textViewPregunta6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="6. Los datos que se muestran, ¿están actualizados y son verídicos?" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta6"
+        android:layout_below="@id/FRPregunta6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="Todos los datos son extraídos en tiempo real de la web de la RFEV, por este motivo no nos hacemos responsables de posibles erratas/variaciones en los horarios o cualquier otro tipo de información." />         
+    </FrameLayout>
+    
+         <FrameLayout
+        android:id="@+id/FRPregunta7"
+        android:layout_below="@id/FRRespuesta6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/textViewPregunta7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="7.¿Existe publicidad o recopila información esta aplicación de mi móvil o mia?" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta7"
+        android:layout_below="@id/FRPregunta7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="Rotundamente no, nuestra aplicación sólo hace uso de internet para poder extraer los datos en tiempo real, por lo que sólo se le pedirá permiso para acceso a internet. Actualmente no incluimos ningún tipo de publidad, aunque si alguna empresa/particular quiere patrocinar esta aplicación puede contactar con nostros escribiendonos a soporte@cavesquimo.es" />         
+    </FrameLayout>
+    
+         <FrameLayout
+        android:id="@+id/FRPregunta8"
+        android:layout_below="@id/FRRespuesta7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/textViewPregunta8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="8.¿Que version(es) de android soporta esta aplicación?" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta8"
+        android:layout_below="@id/FRPregunta8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="En teoría desde la versión 2.2.3 hasta la 4.2 ,pero por falta de dispositivos físicos no podemos comprobar el correcto de funcionamiento en todos los dispositivos, si usted está sufriendo problemas de visualización o le aparecerén errores por favor escríbanos a soporte@cavesquimio.es" />         
+    </FrameLayout>
+    
+         <FrameLayout
+        android:id="@+id/FRPregunta9"
+        android:layout_below="@id/FRRespuesta8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/textViewPregunta9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="9. Tengo problemas con el streaming de los partidos, ¿a qué se debe?" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta9"
+        android:layout_below="@id/FRPregunta9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="Este problema es frecuente en ciertos dispositivos, ya que por defecto los videos que la RFEVB proporciona no soportan android, por lo que tenemos que pasarlos por nuestros servidores y recodificarlos en tiempo real. Estamos esforzándonos en mejorar este apartado lo máximo posible. También uno de los errores más comunes suele ser que el usuario no dispone de una conexión de datos o a internet con suficiente velocidad, por lo que seguramente sufra de paradas y saltos en la imagen." />         
+    </FrameLayout>
+    
+         <FrameLayout
+        android:id="@+id/FRPregunta10"
+        android:layout_below="@id/FRRespuesta9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/textViewPregunta10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="left"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="10. ¿Sirve esta aplicación para ver información sobre la copa del rey?" />        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/FRRespuesta10"
+        android:layout_below="@id/FRPregunta10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip" >
+        
+         <TextView
+            android:id="@+id/textViewRespuesta10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_gravity="left"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:text="Estamos trabajando en ello, en cuanto tengamos mas información (fechas, equipos, lugar,etc) actualizaremos dicha sección con todo el contenido disponible." />         
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/HUECOLAYOUTFINAL"
+        android:layout_below="@id/FRRespuesta10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+    </FrameLayout>
+    
+</RelativeLayout>
+</ScrollView>

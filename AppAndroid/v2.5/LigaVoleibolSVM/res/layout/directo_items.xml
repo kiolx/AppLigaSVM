@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	<LinearLayout android:id="@+id/thumbnail" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="3dip"		
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg" 
+	    android:layout_marginRight="5dip"
+	    android:layout_marginLeft="15dip">
+        
+		<ImageView     
+			android:id="@+id/list_image_local"   
+	        android:layout_width="50dip"
+	        android:layout_height="50dip"
+	        android:src="@drawable/rihanna"
+	        android:layout_gravity="center" 
+	        android:antialias="true"    />
+		
+		
+	</LinearLayout>
+	<!--  ListRow Left sied Thumbnail image -->
+	<LinearLayout android:id="@+id/thumbnail2" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="3dip"		
+        android:layout_alignParentRight="true"
+        android:background="@drawable/image_bg" 
+	    android:layout_marginRight="15dip">
+        
+		<ImageView     
+			android:id="@+id/list_image_visitante"   
+	        android:layout_width="50dip"
+	        android:layout_height="50dip"
+	        android:src="@drawable/rihanna"
+	        android:antialias="true"/>
+		
+		
+        
+	</LinearLayout>
+	
+				<TextView   android:id="@+id/equipolocalString"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignTop="@+id/thumbnail"
+		        android:layout_toRightOf="@+id/thumbnail"
+		        android:text="missing_local"
+		        android:textColor="#040404"
+		        android:textSize="11dip"
+		        android:gravity="center"
+		        android:textStyle="normal"
+		        android:typeface="sans"
+		        android:layout_marginLeft="-65dip"
+		        android:layout_marginTop="55dip" />	
+	
+	
+			    <TextView
+		        android:id="@+id/equipovisitanteString"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignTop="@+id/thumbnail2"
+		        android:layout_toRightOf="@+id/thumbnail2"
+		        android:text="missing_vistteam"
+		        android:textColor="#040404"
+		        android:textSize="11dip"
+		        android:gravity="center"
+		        android:textStyle="normal"
+		        android:typeface="sans"
+		        android:layout_marginLeft="-80dip"
+		        android:layout_marginTop="55dip" />
+
+		       <TextView
+		           android:id="@+id/horaString"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_alignBottom="@+id/thumbnail"
+		           android:layout_centerHorizontal="true"
+		           android:gravity="center"
+		           android:text="missing_hour"
+		           android:textColor="#040404"
+		           android:textSize="12dip"
+		           android:textStyle="normal"
+		           android:typeface="sans" />
+
+		       <TextView
+		           android:id="@+id/fechaString"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_above="@+id/horaString"
+		           android:layout_alignLeft="@+id/horaString"
+		           android:gravity="center"
+		           android:text="missing_date"
+		           android:textColor="#040404"
+		           android:textSize="12dip"
+		           android:textStyle="normal"
+		           android:typeface="sans" />
+
+		       <TextView
+		           android:id="@+id/estadioString"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_above="@+id/fechaString"
+		           android:layout_centerHorizontal="true"
+		           android:gravity="center"
+		           android:text="missing_stadium"
+		           android:textColor="#040404"
+		           android:textSize="12dip"
+		           android:textStyle="normal"
+		           android:typeface="sans" />
+
+</RelativeLayout>

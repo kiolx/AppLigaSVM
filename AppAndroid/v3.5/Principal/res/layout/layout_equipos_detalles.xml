@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/scrollViewEquiposDetalles"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+
+  <LinearLayout
+    android:id="@+id/LinearLayoutTituloResultados"
+    android:layout_width="fill_parent"
+    android:layout_height="30dip"
+    android:gravity="center"
+    android:background="@drawable/list_selector"  >
+
+			    
+        <TextView
+            android:id="@+id/textViewTituloResultados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dip"
+            android:text="CV Andorra"
+            android:textStyle="bold" />
+
+</LinearLayout>    
+
+  <LinearLayout
+    android:id="@+id/lrTextoHistoria"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/LinearLayoutTituloResultados"
+    android:gravity="center" >
+
+			    
+        <TextView
+            android:id="@+id/textViewTextoHistoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dip"
+            android:gravity="left"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:text="@string/ResumenAndorra" />
+
+</LinearLayout>  
+
+   </RelativeLayout>
+</ScrollView>

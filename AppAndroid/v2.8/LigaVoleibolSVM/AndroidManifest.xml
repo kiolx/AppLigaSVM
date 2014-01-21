@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pakete.contenedor.ligavoleibolsvm"
+    android:versionCode="6"
+    android:versionName="@string/appVersion" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+     <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    
+<application
+ android:icon="@drawable/ic_launcher"
+ android:theme="@style/AppTheme" 
+ android:label="@string/appName" 
+ android:hardwareAccelerated="true" 
+ android:logo="@drawable/log512x512">
+        
+        <activity android:screenOrientation="sensor" android:name=".Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+       <!-- Resto de Activity que hay que definir para que no de error la app-->
+      
+       <activity android:screenOrientation="sensor" android:name=".DirectoActivity" />
+ 
+       <activity android:screenOrientation="portrait"   android:name=".DirectoDetallesActivity" />
+       
+       <activity android:screenOrientation="sensor" android:name=".EquiposActivity" />
+   
+       <activity android:screenOrientation="sensor" android:name=".ExtrasMenuActivity" />       
+        
+       <activity android:screenOrientation="sensor" android:name=".ClasificacionActivity" /> 
+  
+       <activity android:screenOrientation="sensor" android:name=".ExtrasItemInformacion" /> 
+       
+       <activity android:screenOrientation="sensor" android:name=".ExtrasItemSugerencias" />
+       
+       <activity android:screenOrientation="sensor" android:name=".ExtrasItemDonaciones" />
+       
+       <activity android:screenOrientation="sensor"   android:name=".ExtrasItemActualizaciones" />
+
+</application>
+
+</manifest>

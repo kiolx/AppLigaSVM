@@ -1,0 +1,48 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pakete.contenedor.ligavoleibolsvm"
+    android:versionCode="5"
+    android:versionName="2.5" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+     <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    
+<application
+        android:icon="@drawable/ic_launcher"
+
+        android:theme="@style/AppTheme" android:label="@string/appName" android:hardwareAccelerated="true" android:logo="@drawable/log512x512">
+        <activity
+            android:name=".Principal"
+            android:label="@string/title_activity_principal" 
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <!-- Directo Activity -->
+        <activity android:screenOrientation="portrait" android:name=".DirectoActivity" />
+   
+        <activity android:screenOrientation="portrait" android:name=".ExtrasActivity" />       
+        
+        <activity android:screenOrientation="portrait" android:name=".ClasificacionActivity" /> 
+  
+       <activity android:screenOrientation="portrait" android:name=".ExtrasInformacion" /> 
+       
+        <activity android:screenOrientation="portrait" android:name=".ExtrasSugerencias" />
+       
+     <activity android:screenOrientation="portrait" android:name=".ExtrasDonaciones" />
+     
+     <activity android:screenOrientation="portrait"   android:name=".DirectoTodoActivity" />
+     
+
+</application>
+
+</manifest>

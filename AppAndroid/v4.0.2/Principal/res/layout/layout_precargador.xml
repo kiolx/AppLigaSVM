@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg_2"
+    android:scrollbars="vertical" >
+    
+     <FrameLayout
+       android:id="@+id/SeparadorCabecera"
+       android:layout_width="match_parent"
+       android:layout_alignParentTop="true"
+       android:layout_height="15dip">
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/imagenPrecargador"
+        android:layout_below="@id/SeparadorCabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageViewPrecargador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/titulosvm2" />
+    </FrameLayout>
+    
+   <FrameLayout
+       android:id="@+id/LinePrecargadorUp"
+       android:layout_below="@id/imagenPrecargador"
+       android:layout_marginTop="15dip"
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="#3f6892">
+    </FrameLayout>
+    
+    <FrameLayout
+       android:id="@+id/LinePrecargadorCenter"
+       android:layout_below="@id/LinePrecargadorUp"
+       android:layout_width="match_parent"
+       android:layout_height="200dip"
+       android:background="@drawable/gradient_bg_3">
+
+       <EditText
+           android:id="@+id/editTextPrecargador"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="5dp"
+           android:background="@null"
+           android:clickable="false"
+           android:cursorVisible="false"
+           android:ems="10"
+           android:focusable="false"
+           android:focusableInTouchMode="false"
+           android:gravity="center_vertical|top"
+           android:inputType="textMultiLine"
+           android:minHeight="190dp"
+           android:scrollHorizontally="false"
+           android:textSize="14sp"
+           android:textStyle="normal"
+           android:typeface="normal" >
+
+        </EditText>
+
+    </FrameLayout>  
+   
+     <FrameLayout
+       android:id="@+id/LinePrecargadorDown"
+       android:layout_below="@id/LinePrecargadorCenter"
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:layout_gravity="bottom"
+       android:background="#3f6892">
+    </FrameLayout>
+
+</RelativeLayout>

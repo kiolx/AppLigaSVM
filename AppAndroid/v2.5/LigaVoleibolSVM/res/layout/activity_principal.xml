@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7191f" >
+
+    <!-- Logo Cabecera! -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="110dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/logo3"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+    
+   <!-- Contenido de Botones -->  
+
+     <LinearLayout
+         android:id="@+id/linearLayout5"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="110dip"
+         android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/imageButtonDirecto"
+                android:layout_width="160dip"
+                android:layout_height="140dip"
+                android:scaleType="fitCenter"
+                android:src="@drawable/directo" />
+
+            <ImageButton
+                android:id="@+id/imageButtonClasificacion"
+                android:layout_width="160dip"
+                android:layout_height="140dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/clasificacion" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/imageButtonEquipos"
+                style="@style/AppTheme"
+                android:layout_width="160dip"
+                android:layout_height="140dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/equiposteam" />
+
+            <ImageButton
+                android:id="@+id/imageButtonInformacion"
+                android:layout_width="160dip"
+                android:layout_height="140dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/informacion" />
+
+        </TableRow>
+    </TableLayout>
+
+  </LinearLayout>
+    <!-- Mensaje del final -->    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#cdcbcb"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewUltimahora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="No hay mensajes nuevos"
+            android:textStyle="bold"
+            android:color="#FFFFFF" />
+    </LinearLayout>
+</RelativeLayout>

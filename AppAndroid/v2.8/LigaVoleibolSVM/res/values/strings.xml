@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">SVM 2012/13</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_principal">Superliga Masculina Voleibol</string>
+    <string name="appName">SVM 2012/13</string>
+    <string name="appVersion">2.8</string>
+    <string name="revisionDate">Revision: 25/11/2012</string>
+    <string name="textView1String">Missing_Directo</string>
+    <string name="textView2String">Missing_Clasificacion</string>
+    <string name="textView3String">Missing_Extras</string>   
+</resources>

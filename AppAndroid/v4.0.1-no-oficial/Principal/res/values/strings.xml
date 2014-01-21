@@ -1,0 +1,189 @@
+<resources>
+
+    <string name="app_name">SVM 2012/13</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_principal">Superliga Masculina Voleibol</string>
+    <string name="appName">Superliga Masculina Voleibol</string>
+    <string name="appVersion">3.6.1</string>
+    <string name="revisionDate">Revision: 05/01/2013</string>
+    <string name="textView1String">Missing_Directo</string>
+    <string name="textView2String">Missing_Clasificacion</string>
+    <string name="textView3String">Missing_Extras</string>   
+    <string name="ResumenAndorra">El CV Andorra es otro de los recién llegados esta temporada a la 
+Superliga masculina. El conjunto andorrano regresa a la máxima categoría del voley masculino nacional siete años después de su última 
+participación en la División de Honor, ya que su anterior concurso en 
+la elite se produjo en la temporada 2005-2006, cuando los andorranos 
+terminaron en el puesto 14 de la liga. 
+En esta ocasión, la escuadra que entrena Lluis Hillaire intentará mantenerse en División de Honor y evitar el descenso, por lo que conseguir la permanencia en la SVM constituye el principal objetivo de los 
+andorranos en esta temporada. 
+Para este nuevo periplo en la SVM, el CV Andorra mantiene la base 
+que logró el ascenso la campaña pasada, un equipo mayoritariamente 
+formado por jugadores locales, completado con la incorporación de 
+jugadores catalanes. La responsabilidad ofensiva correrá por parte 
+del argentino procedente de Emeve, Marcos Héctor Peña, mientras 
+que Christian Salvador, Erik Olivera  y  José Manuel García volverán a 
+ejercer de pilares del equipo. 
+Además, como ya ocurriese en campañas anteriores, las opciones 
+de los andorranos pasa por complicar a sus rivales en sus visitas a la 
+cancha del Poliesportiu Govern D’Andorra, que volverá a erigirse en 
+un feudo complicado para los visitantes</string>
+    <string name="ResumenZaragoza">El CV Zaragoza afronta una nueva campaña en la División de Honor 
+masculina, su séptima temporada consecutiva en la máxima categoría 
+del voley nacional, en la que la entidad aragonesa lucha denostadamente por mantener el Voleibol de alto nivel en la capital maña. 
+La escuadra que entrena Diego Carreras ha hecho una apuesta decidida por promocionar el voley aragonés y de esta forma pelea en la 
+edición 2012-2013 de la SVM con un equipo formado prácticamente 
+por jugadores de esta región. La única incorporación foránea es la 
+del jugador brasileño Rafael Pasqualini, gran conocedor de la liga 
+española por proceder del UBE Lilla Grau y que llega al equipo con la 
+intención de contribuir al buen hacer del conjunto maño. 
+Al igual que en las últimas temporadas, el receptor Rubén Calonge 
+junto con el central Nicolás Lemaitre serán las principales referencias 
+del juego de los pupilos de Diego Carreras. 
+En cuanto a las expectativas para la campaña que acaba de comenzar, como han declarado desde el propio club maño, el objetivo que 
+se plantea la escuadra aragonesa esta campaña es la de conseguir la 
+permanencia, por lo que a priori el grupo que entrena Diego Carreras 
+peleará en la parte baja de la tabla por seguir un año más en la elite 
+del voley nacional y por seguir llevando semana tras semanas la emoción al CDM Siglo XXI.</string> 
+    <string name="ResumenTeruel">El CAI Voleibol Teruel afronta la Superliga 2012-2013 como el 
+principal dominador del Voleibol masculino en España en estos momentos. La escuadra aragonesa se proclamó campeón 
+de la Copa del Rey y de la Superliga la temporada pasada, 
+dos títulos que completó el mes de octubre con la corona de la 
+Supercopa. 
+El reto del equipo que entrena Óscar Novillo será repetir la 
+gran hazaña conseguida en la campaña 11-12 y perpetuar así 
+su era de dominación en la SVM. 
+A su favor cuenta con una amplia y compensada plantilla, 
+compuesta por jugadores de garantías y de calidad que están 
+llamados a convertirse en las grandes referencias de la nueva 
+edición campeonato liguero. Los recién llegados Miguel Ángel 
+de Amo en la dirección, Juan Carlos Barcala en labores ofensivas y Jean Diedhiou en bloqueo se suman al recuperado 
+Máximo Torcello y al siempre efectivo Manuel Sevillano en su 
+camino a optar a todos los títulos de este curso. 
+En su contra tendrán la sobrecarga de partidos resultante de 
+su participación en Liga de Campeones.</string>
+    <string name="ResumenCajasol">La temporada 2012-2013 puede suponer la inclusión definitiva de Cajasol Juvasa en la terna de favoritos a optar a los títulos en la División 
+de Honor masculina. No en vano, el gran trabajo que lleva realizando 
+la escuadra sevillana en las últimas temporadas propició que el combinado entrenado por José Manuel González ‘Magú’ alcanzase la condición de equipo revelación la campaña pasada. Ahora, en este curso 
+2012-2013, los nazarenos pueden convertirse en el ‘tapado’ de la liga. 
+Con el trabajo y el esfuerzo colectivo como principales armas, los andaluces intentarán dar la sorpresa y buscarán presentar su candidatura al grupo de cabeza que a priori compondrán CAI Voleibol Teruel, 
+Unicaja Almería y CMA Soria. La principal baza de los de Magú será 
+la juventud, ya que los sevillanos incorporan a algunas de las principales promesas del voley nacional, como Jesús Bruque, Enrique 
+De Diego o Raúl Muñoz. Además, la llegada del venezolano Héctor 
+Salerno puede suponer la aportación de puntos necesaria para hacer 
+frente a sus principales rivales en la carrera por entrar en el grupo de 
+cabeza de la liga.
+La principal incógnita de los sevillanos será determinar la respuesta 
+de los jóvenes jugadores del equipo en un torneo extenso y exigente 
+como la SVM, ya que ellos recibirán la responsabilidad de mantener el 
+juego del combinado andaluz a lo largo de todo el campeonato.</string>  
+    <string name="ResumenVigo">El Club Vigo Voleibol repite en Superliga masculina, en una temporada 2012-2013 en la que la entidad que preside Guillermo Touza 
+continúa trabajando por mantener a la escuadra viguesa en la máxima 
+competición liguera de España y que estará marcada para el conjunto 
+gallego por la juventud de su plantilla. El grupo que entrena Eduardo 
+Sánchez está compuesto por jugadores jóvenes que pelearán por defender los intereses gallegos en la División de Honor y que intentarán 
+mantener la permanencia de la escuadra en la SVM. 
+A priori, el Club Vigo Voleibol parte con la etiqueta de equipo llamado 
+a luchar en la zona baja de la tabla, si bien la igualdad de la liga esta 
+campaña podría propiciar que una buena racha gallega les situase en 
+puestos más elevados. A su favor, volverán a intentar sacar rédito de 
+su condición de local en sus participaciones en el Pabellón Municipal 
+de Coia, especialmente cuando se enfrente a teóricos rivales directos. 
+Eduardo Sánchez, toda una institución en el club vigués, alternará las 
+funciones de entrenador y de jugador, y comandará tanto en la pista 
+como en el banquillo a un combinado que volverá a tener como principales referencias a Pablo Gómez y Eduardo Rodríguez. 
+Los vigueses, que con respecto a la temporada anterior no contarán 
+con el concurso del mítico Enrique De la Fuente, intentarán brillar en 
+su tercera campaña consecutiva en la SVM.</string>
+   <string name="ResumenSoria">El Ciudad Medio Ambiente Soria se erige a priori como el tercero en 
+discordia en esta Superliga 2012-2013 y uno de los equipos llamados 
+a pelear por los títulos en juego. 
+El renovado conjunto que entrena Álvaro Martín espera poder romper 
+la alternancia de CAI Voleibol Teruel y Unicaja Almería, para lo cual 
+presenta un joven plantel que confía en mejorar si cabe la meritoria 
+participación de la campaña pasada, en la que consiguió el subcampeonato de Copa y el tercer puesto en Liga. 
+La principal baza del equipo soriano será Fran Ruiz. El joven y explosivo receptor no pudo brillar la temporada pasada a causa de una grave lesión pero ya recuperado, comparece como una de las principales 
+atracciones del campeonato. También destacará Alberto Salas, que 
+tras su periplo en Unicaja Almería, regresa a la disciplina numantina 
+como opuesto, para catalizar las acciones ofensivas del equipo. 
+El principal reto que deberá afrontar Álvaro Martín será encarar la 
+exigente temporada en la SVM con una plantilla no excesivamente 
+extensa que estará siempre amenazada por la espada de Damocles 
+de las lesiones, pero que tratará de hacer de la garra su seña de 
+identidad. El sueño soriano será por tanto poder volver a conseguir un 
+título, algo que no logra desde la temporada 2007-2008 cuando ganó 
+la Copa del Rey.</string>
+   <string name="ResumenLilla">El UBE L’Illa Grau es uno de los equipos cuyo principal objetivo será 
+conseguir la permanencia en la máxima categoría del voley masculino 
+nacional, en esta su segunda campaña consecutiva en la SVM. Sin 
+embargo, la intensa igualdad que vive este año la División de Honor 
+masculina propicia que la escuadra que entrena Carlos Cavalli opte 
+también a pelear por la clasificación para los playoffs y para la Copa 
+del Rey. 
+El conjunto de El Grao mantiene la base del equipo que la campaña 
+pasada terminó en quinto puesto de liga y que disputó la última edición copera, en la que cayó en cuartos de final a manos de Unicaja 
+Almería. Los hombres de Carlos Cavalli volverán a encomendarse a 
+la pegada de Pavel Kukartsev y al esfuerzo colectivo para tratar de 
+sacar los partidos adelante. La falta de potencia sobre la red puede 
+ser no obstante uno de sus principales puntos débiles. 
+Aún así, uno de los principales factores que determinarán el futuro 
+competitivo de la escuadra grauera consistirá en convertir el Pabellón 
+Ciutat de Castelló en todo un fortín, ya que conservar sus puntos en 
+casa puede constituir la diferencia entre la salvación y los apuros para 
+el equipo de El Grao, que sueña con confirmarse en la elite del voley 
+español. </string>
+ <string name="ResumenAlmeria">El Club Voleibol Unicaja Almería arranca esta temporada con un objetivo claro: volver a recuperar la corona liguera que se le resiste desde 
+la temporada 2004-2005. Ya en la campaña pasada los almerienses 
+se quedaron a las puertas, al obtener el subcampeonato tras caer en 
+la gran final ante CAI Voleibol Teruel. 
+Con 26 años de historia, la entidad ahorradora quiere ofrecer a su 
+afición un año inolvidable, con un equipo caracterizado por la continuidad de muchos de sus jugadores jóvenes que el año pasado ya 
+destacaron, como Borja Ruiz, Jorge Almansa, Ignacio Sánchez y Toni 
+Llabrés. Estos exponentes de la prometedora cantera española se 
+unirán a Mario Ferrera y Víctor Viciana en su aventura por conquistar 
+la que podría ser novena Liga y novena Copa del Rey. Destacan además las incorporaciones de Julián García Torres, veterano central que 
+aportará mucha experiencia y calidad, así como la llegada de Andrés 
+Villena, la perla del voley español, que esta temporada da el salto a 
+la máxima categoría liguera. Estos jugadores, junto con los fichajes 
+notables de Yasim Youssif y Travis Passier buscarán volver a lanzar 
+al conjunto andaluz hacia todos los títulos. Para poder conseguir esas 
+metas, el equipo que dirige Piero Molducci por segundo año consecutivo seguirá apostando por el esfuerzo y sacrificio para recuperar la 
+hegemonía en la SVM.</string>
+ <string name="ResumenIbiza">El Ushuaïa Ibiza Voley está llamado a ser la gran revelación de la 
+temporada 2012-2013 en Superliga masculina. El conjunto ibicenco 
+es uno de los recién llegados a la categoría, después de conseguir el 
+ascenso brillantemente desde la Superliga 2. Ya en la máxima división 
+del voley nacional, el conjunto que entrena Toni Gino ha conformado 
+una plantilla ilusionante, con jugadores de calidad más que contrastada, que está llamada a dar muchas sorpresas en el campeonato. 
+Las incorporaciones de Adrián Fidalgo y Modesto Guerrero y sobre 
+todo del colocador Carlos Mora se unen a las renovaciones de dos 
+de los mejores jugadores de la SM2 la temporada pasada, Edmond 
+Solanas y Arthur Borges, para presentar una alineación de garantías 
+que puede plantar cara a todos sus rivales en la Superliga. 
+Los baleares intentarán aprovecharse del factor cancha en el pabellón 
+Es Viver, para lo cual confiarán, como ya ocurriese la campaña pasada, en el apoyo del público ibicenco, que volverá a volcarse con el 
+equipo. 
+Una de las principales incógnitas del conjunto insular en esta su 
+primera temporada en la SVM será su adaptación a la categoría; no 
+obstante, el potencial que a priori atesoran los jugadores que alineará 
+Toni Gino convierte al Ushuaïa Ibiza Voley en una de las escuadras 
+con las que contar para pelear por la cabeza de la liga y por la Copa.</string>
+ <string name="ResumenCanaria">El Vecindario ACE Gran Canaria es otro de los equipos que parte en 
+esta temporada 2012-2013 con la vitola de candidato a ser uno de 
+los grandes animadores del campeonato. La escuadra dirigida por 
+Francisco Sánchez Jover, que ahora toma el timón del equipo también 
+desde el banquillo, se presenta como equipo a tener en cuenta, debido a contar con una compensada alineación que equilibra veteranía y 
+juventud a partes iguales. El equipo grancanario vuelve a hacer constancia de su apuesta por la cantera y da la reválida a prometedores y 
+jóvenes jugadores como Víctor Cabrera, Alberto Ayllón o Sergio Ramírez. Pero además, se refuerza con veteranos de garantías, como 
+Semidán Déniz, Harold Ramírez o Ruimán Artiles. Como nota relevante, el equipo presenta además la recuperación del mítico Alexis Valido, 
+que abandona su retirada para protagonizar un sorprendente retorno 
+a la práctica activa del Voleibol. 
+Todos estos factores contribuyen a que el conjunto grancanario tenga 
+puestas en esta temporada muchas ilusiones, ya que este curso puede ser el de la gran campanada de la escuadra de Vecindario. Los de 
+Paco Sánchez Jover pelearán a priori con Cajasol Juvasa y Ushuaïa 
+Ibiza Voley por ser la revelación, sin descuidar cotas más altas. Si 
+consiguen amarrar los puntos en casa, los insulares serán candidatos 
+a entrar en playoffs y pelear por la Copa de SM El Rey.</string>
+
+ 
+</resources>

@@ -1,0 +1,339 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewEquipos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#180153" >
+        
+<RelativeLayout
+    android:id="@+id/linearEquipos1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+ 
+ <LinearLayout
+     android:id="@+id/EquiposlinarInterior1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center_horizontal" >
+    
+ <TableLayout
+     android:id="@+id/tablaEquipos"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal" >
+
+    <TableRow
+     android:id="@+id/tableRowEquipos1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" >
+
+        <FrameLayout
+        android:id="@+id/EquiposFrameviewAndorra"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="#019cae"
+        android:layout_marginTop="5dip" >
+        
+           <ImageView
+                android:id="@+id/imageViewAndorra"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/andorra4" />      
+            
+            <TextView
+                android:id="@+id/EquipostextViewAndorra"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="CV Andorra" />
+        </FrameLayout>
+              
+        <FrameLayout
+        android:id="@+id/EquiposFrameviewZaragoza"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="5dip"
+        android:background="#603dbb" >
+
+            <ImageView
+                android:id="@+id/imageViewZaragoza"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/zaragoza4" /> 
+                           
+            <TextView
+                android:id="@+id/EquipostextViewZaragoza"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="CV Zaragoza" />            
+        </FrameLayout>
+        
+         <FrameLayout
+        android:id="@+id/EquiposFrameviewTeruel"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="5dip"
+        android:background="#2879ee" >
+
+             <ImageView
+                android:id="@+id/imageViewTeruel"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/teruel4" />  
+                            
+            <TextView
+                android:id="@+id/EquipostextViewTeruel"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="CAI Vb Teruel" />            
+        </FrameLayout>
+              
+     </TableRow>
+     
+ <!--  SEPARDOR 1 -->
+     <TableRow
+     android:id="@+id/tableRowEquipos2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" >
+
+        <FrameLayout
+        android:id="@+id/EquiposFrameviewCajasol"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="#9b00a4"
+        android:layout_marginTop="5dip" >
+        
+             <ImageView
+                android:id="@+id/imageViewCajasol"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/cajasol4" />         
+            
+            <TextView
+                android:id="@+id/EquipostextViewCajasol"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="Cajasol Juvasa" />
+        </FrameLayout>
+              
+        <FrameLayout
+        android:id="@+id/EquiposFrameviewVigo"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="5dip"
+        android:background="#00a200" >
+
+             <ImageView
+                android:id="@+id/imageViewVigo"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/vigo4" /> 
+                          
+            <TextView
+                android:id="@+id/EquipostextViewVigo"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="Club Vigo Vb" />            
+        </FrameLayout>
+        
+         <FrameLayout
+        android:id="@+id/EquiposFrameviewNumancia"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="5dip"
+        android:background="#b01a40" >
+
+               <ImageView
+                android:id="@+id/imageViewNumancia"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/soria4" /> 
+            
+            <TextView
+                android:id="@+id/EquipostextViewNumancia"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="CMA SoriaNum" />            
+        </FrameLayout>
+              
+     </TableRow>
+       
+  <!--  SEPARDOR 2 -->
+     <TableRow
+     android:id="@+id/tableRowEquipos3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" >
+
+        <FrameLayout
+        android:id="@+id/EquiposFrameviewLilla"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="#0158cc"
+        android:layout_marginTop="5dip" >
+        
+              <ImageView
+                android:id="@+id/imageViewLilla"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/lilla4" />    
+            
+            <TextView
+                android:id="@+id/EquipostextViewLilla"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="UBE l´illa grau" />
+        </FrameLayout>
+              
+        <FrameLayout
+        android:id="@+id/EquiposFrameviewAlmeria"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="5dip"
+        android:background="#e76221" >
+
+           <ImageView
+                android:id="@+id/imageViewAlmeria"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/almeria4" /> 
+                            
+            <TextView
+                android:id="@+id/EquipostextViewAlmeria"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="Unicaja Almeria" />            
+        </FrameLayout>
+        
+         <FrameLayout
+        android:id="@+id/EquiposFrameviewIbiza"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="5dip"
+        android:background="#1c8bc3" >
+
+            <ImageView
+                android:id="@+id/imageViewIbiza"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/ibiza4" /> 
+                           
+            <TextView
+                android:id="@+id/EquipostextViewIbiza"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="UshuaÏa Ibiza" />            
+        </FrameLayout>
+              
+     </TableRow>    
+     
+  <!--  SEPARDOR 3 -->
+
+     <TableRow
+         android:id="@+id/tableRowEquipos4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center" >
+
+        <FrameLayout
+        android:id="@+id/EquiposFrameviewVecindario"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="#02aede"
+        android:layout_marginTop="5dip" >
+        
+              <ImageView
+                android:id="@+id/imageViewCanaria"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/canaria4" />    
+            
+            <TextView
+                android:id="@+id/EquipostextViewVecindario"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:background="@drawable/image_bg"
+                android:layout_height="wrap_content"
+                android:text="CV Islas 7" />
+        </FrameLayout>
+                            
+     </TableRow>  
+ 
+ </TableLayout>
+ </LinearLayout>
+ 
+  <LinearLayout
+     android:id="@+id/linarInterior2"
+     android:layout_width="match_parent"
+     android:layout_height="100dip"
+     android:layout_below="@id/EquiposlinarInterior1"> 
+  </LinearLayout>
+  
+ <LinearLayout
+     android:id="@+id/EquiposlinarInterior3"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/linarInterior2"
+     android:gravity="center_horizontal" >
+     
+       <ImageView
+        android:id="@+id/EquiposviewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="115dip"
+        android:src="@drawable/logodefinitivo" />
+            
+ </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

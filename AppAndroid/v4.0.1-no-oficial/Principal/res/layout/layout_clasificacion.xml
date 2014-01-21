@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollViewClasificacion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+<RelativeLayout 
+    android:id="@+id/RelativeLyClasificacion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    
+<TableLayout  
+    android:id="@+id/tablaClasificaciones" 
+    android:gravity="top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1" 
+    android:background="#5b85be">
+    
+    <!-- Barra de titulos -->
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:background="#0179ad" >
+
+        <TextView
+            android:layout_column="0"
+            android:text="Pos"
+            android:gravity="center"
+            android:textSize="13dip"  
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="3dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+            />
+        <TextView
+            android:layout_column="1"
+            android:text="Equipos"
+            android:gravity="left"
+            android:textSize="13dip"  
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="3dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+            />
+         <TextView
+            android:layout_column="0"
+            android:text="PJ"
+            android:gravity="left"
+            android:textSize="13dip"  
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="3dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+            />
+          <TextView
+            android:layout_column="1"
+            android:text="Ptos"
+            android:gravity="left"
+            android:textSize="13dip"  
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="3dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+            />
+    </TableRow>
+ </TableLayout>  
+
+<LinearLayout
+    android:id="@+id/LinearLayoutTituloSepteto"
+    android:layout_width="fill_parent"
+    android:layout_height="30dip"
+    android:layout_below="@id/tablaClasificaciones"
+    android:background="@drawable/list_selector"  >
+      <TextView
+            android:id="@+id/textViewTituloClasificacionSepteto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="5dip"
+            android:text="Septeto ideal de la jornada"
+            android:textStyle="bold" />
+</LinearLayout>
+
+ <LinearLayout
+    android:id="@+id/LinearLayoutImagenSepteto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top|center"
+    android:layout_below="@id/LinearLayoutTituloSepteto"
+    android:background="@drawable/list_selector"  >
+		    
+		<ImageView
+		    android:id="@+id/imageViewFantasmaSepteto"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="5dip"
+		    android:layout_marginBottom="5dip"
+		    android:layout_gravity="top|center"
+		    android:antialias="true"
+		    android:gravity="top|center"
+		    android:scaleType="centerInside" />
+
+</LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/LinearLayoutCargadorSepteto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top|center"
+    android:minHeight="100dip"
+    android:layout_below="@id/LinearLayoutTituloSepteto"
+    android:background="@drawable/list_selector"  >
+
+			<ProgressBar
+		    android:id="@+id/progressBarSepteto"
+		    style="?android:attr/progressBarStyleLarge"
+		    android:layout_gravity="center"
+		    android:layout_width="50dip"
+		    android:layout_height="50dip" />
+
+			<TextView
+			    android:id="@+id/textViewCargandoSepteto"
+			    android:layout_gravity="center"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip"
+			    android:text=" Cargando... Espere" />
+
+</LinearLayout>
+
+ <LinearLayout
+    android:id="@+id/LinearLayoutTituloMVP"
+    android:layout_width="fill_parent"
+    android:layout_height="30dip"
+    android:layout_below="@id/LinearLayoutImagenSepteto"
+    android:background="@drawable/list_selector"  >
+      <TextView
+            android:id="@+id/textViewTituloClasificacionMVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="5dip"
+            android:text="MVP de la jornada"
+            android:textStyle="bold" />
+</LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/LinearLayoutImagenMVP"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top|center"
+    android:layout_below="@id/LinearLayoutTituloMVP"
+    android:background="@drawable/list_selector"  >
+		    
+		<ImageView
+		    android:id="@+id/imageViewFantasmaMVP"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="top|center"
+		    android:layout_marginTop="5dip"
+		    android:layout_marginLeft="5dip"
+		    android:antialias="true"
+		    android:gravity="top|left"
+		    android:scaleType="centerInside" />
+		 <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:textSize="12sp" 
+            android:text="Carlos Baos\nUBE Lilla Grau\n\nCompletísimo partido el que realizó el jugador de UBE Lilla Grau, Carlos Baos, en la victoria de su equipo sobre Vecindario ACE Gran Canaria. 17 puntos, 5 saques directos y un 93% de efectividad en recepción son los números que valen una victoria y el MVP de la décima jornada."
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/LinearLayoutCargadorMVP"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top|center"
+    android:minHeight="100dip"
+    android:layout_below="@id/LinearLayoutTituloMVP"
+    android:background="@drawable/list_selector"  >
+
+			<ProgressBar
+		    android:id="@+id/progressBarMVP"
+		    style="?android:attr/progressBarStyleLarge"
+		    android:layout_gravity="center"
+		    android:layout_width="50dip"
+		    android:layout_height="50dip" />
+
+			<TextView
+			    android:id="@+id/textViewCargandoMVP"
+			    android:layout_gravity="center"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip"
+			    android:text=" Cargando... Espere" />
+
+</LinearLayout>
+   
+</RelativeLayout>
+</ScrollView>

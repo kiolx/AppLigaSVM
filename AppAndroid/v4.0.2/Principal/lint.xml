@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="SetJavaScriptEnabled" severity="ignore">
+        <ignore path="src\pakete\contenedor\ligavoleibolsvm\DirectoActivity.java" />
+        <ignore path="src\pakete\contenedor\ligavoleibolsvm\DirectoTodoActivity.java" />
+        <ignore path="src\pakete\contenedor\ligavoleibolsvm\ExtrasDonaciones.java" />
+        <ignore path="src\pakete\contenedor\ligavoleibolsvm\ExtrasItemDonaciones.java" />
+    </issue>
+</lint>
